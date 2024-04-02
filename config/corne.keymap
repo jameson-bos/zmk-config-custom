@@ -35,9 +35,9 @@
             //                    | GUI |     | SPC |   | ENT |     | ALT |
 
             bindings = <
-&none  &kp N1        &kp N2        &kp N3        &kp N4        &kp N5          &kp N6        &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &kp N0  &none
-&none  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4    &kp KP_EQUAL  &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &trans  &none
-&none  &trans        &trans        &trans        &trans        &trans          &trans        &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &trans  &none
+&none  &kp N1        &kp N2        &kp N3        &kp N4        &kp N5          &kp KP_MINUS  &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &kp EXCLAMATION  &none
+&none  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4    &kp KP_EQUAL  &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &kp AT_SIGN      &none
+&none  &trans        &trans        &trans        &trans        &trans          &kp KP_PLUS   &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &kp POUND        &none
                                    &kp LGUI      &trans        &kp SPACE       &kp RET       &trans           &kp KP_NUMBER_0
             >;
         };
