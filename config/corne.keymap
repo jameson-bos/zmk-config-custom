@@ -27,7 +27,7 @@
             >;
         };
 
-        lower_layer {
+        Numbers {
             // -----------------------------------------------------------------------------------------
             // |  TAB |  1  |  2  |  3  |  4  |  5  |   |  6  |  7  |  8  |  9  |  0  | BKSP |
             // | BTCLR| BT1 | BT2 | BT3 | BT4 | BT5 |   | LFT | DWN |  UP | RGT |     |      |
@@ -35,10 +35,10 @@
             //                    | GUI |     | SPC |   | ENT |     | ALT |
 
             bindings = <
-&none       &kp N1        &kp N2        &kp N3        &kp N4        &kp N5          &kp N6    &kp N7  &kp N8           &kp N9  &kp N0  &kp BSPC
-&bt BT_CLR  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4    &kp LEFT  &kp N4  &kp N5           &kp N6  &trans  &trans
-&kp LSHFT   &trans        &trans        &trans        &trans        &trans          &trans    &kp N1  &kp N2           &kp N3  &trans  &trans
-                                        &kp LGUI      &trans        &kp SPACE       &kp RET   &trans  &kp KP_NUMBER_0
+&none  &kp N1        &kp N2        &kp N3        &kp N4        &kp N5          &kp N6        &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &kp N0  &none
+&none  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4    &kp KP_EQUAL  &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &trans  &none
+&none  &trans        &trans        &trans        &trans        &trans          &trans        &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &trans  &none
+                                   &kp LGUI      &trans        &kp SPACE       &kp RET       &trans           &kp KP_NUMBER_0
             >;
         };
 
