@@ -35,7 +35,7 @@
             //                    | GUI |     | SPC |   | ENT |     | ALT |
 
             bindings = <
-&kp MINUS  &kp LEFT_BRACE    &kp RIGHT_BRACE    &kp TILDE     &kp PIPE     &kp COMMA       &kp KP_MINUS  &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &kp EXCLAMATION  &none
+&kp MINUS  &kp LEFT_BRACE    &kp RIGHT_BRACE    &kp TILDE     &kp PIPE     &kp QUESTION    &kp KP_MINUS  &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &kp EXCLAMATION  &none
 &kp MINUS  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp ASTERISK  &kp CARET    &kp PERIOD      &kp KP_EQUAL  &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &kp AT_SIGN      &none
 &kp MINUS  &kp SEMI          &kp COLON          &kp DOLLAR    &kp PERCENT  &kp KP_SLASH    &kp KP_PLUS   &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &kp POUND        &none
                                                 &kp LGUI      &trans       &kp SPACE       &kp SPACE     &trans           &kp KP_NUMBER_0
